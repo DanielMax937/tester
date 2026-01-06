@@ -1,0 +1,14 @@
+[project]
+name = "autonomous-sdet-agent"
+version = "0.1.0"
+description = "Autonomous SDET (Software Development Engineer in Test) agent CLI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+sdet-agent = "sdet_agent.cli:main"
